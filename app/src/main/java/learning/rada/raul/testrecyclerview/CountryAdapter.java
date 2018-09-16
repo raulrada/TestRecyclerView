@@ -127,6 +127,11 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
                     itemView.findViewById(R.id.list_item_country_name);
             listItemCountryCapitalTextView = (TextView)
                     itemView.findViewById(R.id.list_item_country_capital);
+
+            // set a click listener on the current CountryViewHolder. Since the class implements the
+            // View.OnClickListener interface, pass the current instance of CountryViewHolder to
+            // setOnClickListener. The overridden onClick (View view) method below determines what
+            // happens when the user clicks on the CountryViewHolder instance.
             itemView.setOnClickListener(this);
         }
 
