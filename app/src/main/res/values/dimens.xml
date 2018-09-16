@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="no_width">0dp</dimen>
+    <dimen name="no_height">0dp</dimen>
+
+    <!-- dimensions related to the RecyclerView in activity_main.xml -->
+    <dimen name="rv_margin_start">10dp</dimen>
+    <dimen name="rv_margin_end">10dp</dimen>
+    <dimen name="rv_margin_top">5dp</dimen>
+    <dimen name="rv_margin_bottom">5dp</dimen>
+
+    <!-- dimensions related to list_item.xml -->
+    <dimen name="list_item_margin_start">0dp</dimen>
+    <dimen name="list_item_margin_end">0dp</dimen>
+    <dimen name="list_item_margin_top">2dp</dimen>
+    <dimen name="list_item_margin_bottom">2dp</dimen>
+
+    <dimen name="list_text_view_large_margin_start">5dp</dimen>
+    <dimen name="list_text_view_large_margin_end">5dp</dimen>
+    <dimen name="list_text_view_large_margin_top">0dp</dimen>
+    <dimen name="list_text_view_large_margin_bottom">0dp</dimen>
+    <dimen name="list_text_view_large_text_size">18sp</dimen>
+
+    <dimen name="list_text_view_regular_margin_start">5dp</dimen>
+    <dimen name="list_text_view_regular_margin_end">5dp</dimen>
+    <dimen name="list_text_view_regular_margin_top">0dp</dimen>
+    <dimen name="list_text_view_regular_margin_bottom">0dp</dimen>
+    <dimen name="list_text_view_regular_text_size">14sp</dimen>
+
+    <!-- dimensions related to the TextViews in activity_details.xml -->
+    <dimen name="details_text_view_regular_margin_start">5dp</dimen>
+    <dimen name="details_text_view_regular_margin_end">5dp</dimen>
+    <dimen name="details_text_view_regular_margin_top">10dp</dimen>
+    <dimen name="details_text_view_regular_margin_bottom">10dp</dimen>
+    <dimen name="details_text_view_regular_text_size">20sp</dimen>
+
+</resources>
